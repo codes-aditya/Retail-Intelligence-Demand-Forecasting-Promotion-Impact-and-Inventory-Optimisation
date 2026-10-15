@@ -1,0 +1,11 @@
+# Ignore raw Kaggle datasets and temporary files
+data/raw/
+*.csv
+*.parquet
+models/
+
+# Ignore Python virtual environments and cache
+__pycache__/
+*.pyc
+retail_env/
+.env
